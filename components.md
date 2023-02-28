@@ -20,7 +20,7 @@ System_Boundary(conference_site, "Сайт конференции") {
    Container(client_service, "Сервис авторизации", "C++", "Сервис управления пользователями", $tags = "microService")    
    Container(post_service, "Сервис докладов", "C++", "Сервис управления докладами", $tags = "microService") 
    Container(blog_service, "Сервис конференций", "C++", "Сервис управления конференциями", $tags = "microService")   
-   ContainerDb(db, "База данных", "PostgreSQL", "Хранение данных о конференциях, докладах и пользователях", $tags = "storage")
+   ContainerDb(db, "База данных", "MySQL", "Хранение данных о конференциях, докладах и пользователях", $tags = "storage")
    
 }
 
